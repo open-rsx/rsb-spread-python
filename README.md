@@ -2,14 +2,16 @@
 
 # Introduction
 
-This repository contains the Python implementation of the [spread] based transport for the [Robotics Service Bus](https://github.com/open-rsx) middleware.
+This repository contains the Python (3) implementation of the [Spread][spread]-based transport for the [Robotics Service Bus][rsb] middleware.
 
-**The full documentation for RSB can be found at <https://docs.cor-lab.de/manual/rsb-trunk/index.html>.**
+**The full documentation for RSB can be found [here][rsb-doc].**
 
 # Dependencies
 
-* [rsb-python](https://github.com/open-rsx/rsb-python)
-* [SpreadModule](https://github.com/open-rsx/spread-python3)
+* The C client library of the [Spread group communication framework][spread]
+* The [Spread module for Python 3][spread-python]
+* [rsb-python]
+* epydoc for API documentation
 * [pytest], [pytest-timeout], [pytest-cov], [tox], and optionally [pyenv] for testing
 
 # Building and Installing
@@ -55,9 +57,15 @@ The development of this software has been supported as follows:
 * The development of this software was supported by CoR-Lab, Research Institute for Cognition and Robotics Bielefeld University.
 * This work was supported by the Cluster of Excellence Cognitive Interaction Technology ‘CITEC’ (EXC 277) at Bielefeld University, which is funded by the German Research Foundation (DFG).
 
+[spread]: https://www.spread.org
+[spread-python]: https://github.com/open-rsx/spread-python3
+
+[rsb]: https://github.com/open-rsx
+[rsb-python]: https://github.com/open-rsx/rsb-python
+[rsb-doc]: https://open-rsx.github.io/rsb-manual/
+
 [pyenv]: https://github.com/pyenv/pyenv
 [pytest-cov]: https://pytest-cov.readthedocs.io
 [pytest-timeout]: https://bitbucket.org/pytest-dev/pytest-timeout/
 [pytest]: https://docs.pytest.org
 [tox]: https://tox.readthedocs.io
-[Spread]: http://www.spread.org/
