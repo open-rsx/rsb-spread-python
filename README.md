@@ -6,6 +6,8 @@ This repository contains the Python (3) implementation of the [Spread][spread]-b
 
 **The full documentation for RSB can be found [here][rsb-doc].**
 
+**This product uses software developed by Spread Concepts LLC for use in the Spread toolkit. For more information about Spread see <http://www.spread.org>.**
+
 # Dependencies
 
 * The C client library of the [Spread group communication framework][spread]
